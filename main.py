@@ -14,7 +14,7 @@ unicorn.brightness(1)
 
 unicorn.rotation(180)
 
-req = Request('https:/magicdb.us')
+req = Request('https://magicdb.us')
 # you can set the timeout to be less, but if its too quick you may just recieve an error
 timeout = 25
 socket.setdefaulttimeout(timeout)
